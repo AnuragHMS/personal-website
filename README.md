@@ -7,6 +7,7 @@ See the website here:
 *Not yet available*
 
 ##Todo:
+- [x] Create Github Repo
 - [ ] Create landing/about/contact pages
 - [ ] Stylise the pages
 
