@@ -7,8 +7,8 @@ See the website here:
 *Not yet available*
 
 ##Todo:
-- [] Create landing/about/contact pages
-- [] Stylise the pages
+- [ ] Create landing/about/contact pages
+- [ ] Stylise the pages
 
 ## Technologies Used:
 - Node
