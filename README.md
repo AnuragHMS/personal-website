@@ -8,8 +8,15 @@ See the website here:
 
 ##Todo:
 - [x] Create Github Repo
-- [ ] Create landing/about/contact pages
+- [x] Create landing/about/contact pages
 - [ ] Stylise the pages
+    - [X] Home 
+    - [ ] About
+    - [ ] Contact
+
+###About
+- Add introduction to self page
+- Add destinations on page to explain more about carousel items
 
 ## Technologies Used:
 - Node
