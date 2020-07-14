@@ -1,12 +1,10 @@
 # Anurag Sahare - Personal Webpage
+Hi I'm Anurag, and this is the github repo for my personal website. You can get to the website via : *Not yet available*
 
 ## Description
-This github repository contains all the files and implementations about my personal website.
+This repository contains all the files and implementations about my personal website as well as my todo list to keep track of implementations still remaining as well as completed functions.
 
-See the website here: 
-*Not yet available*
-
-## Todo:
+## Todo: 
 
 - [x] Create Github Repo
 - [x] Create landing/about/contact pages
@@ -15,9 +13,9 @@ See the website here:
     - [ ] About
     - [ ] Contact
 
-### About
-- Add introduction to self page
-- Add destinations on page to explain more about carousel items
+    ### About
+    - Add introduction to self page
+    - Add destinations on page to explain - - More about carousel items
 
 ## Technologies Used:
 - Node
