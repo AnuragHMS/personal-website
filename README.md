@@ -6,7 +6,8 @@ This github repository contains all the files and implementations about my perso
 See the website here: 
 *Not yet available*
 
-##Todo:
+## Todo:
+
 - [x] Create Github Repo
 - [x] Create landing/about/contact pages
 - [ ] Stylise the pages
