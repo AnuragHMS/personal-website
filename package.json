@@ -1,0 +1,23 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Anurag Sahare's Personal Webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnuragHMS/personal-website.git"
+  },
+  "author": "Anurag Sahare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnuragHMS/personal-website/issues"
+  },
+  "homepage": "https://github.com/AnuragHMS/personal-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
