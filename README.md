@@ -15,7 +15,7 @@ See the website here:
     - [ ] About
     - [ ] Contact
 
-###About
+### About
 - Add introduction to self page
 - Add destinations on page to explain more about carousel items
 
