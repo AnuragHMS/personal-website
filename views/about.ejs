@@ -1,50 +1,101 @@
-<%- include("./partials/header.ejs");  %> 
-<br>
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    
-    <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url(sufst_group.jpg);">
-          <img src="sufst_group.jpg"  alt="SUFST Group Image">
-          <!-- class="d-block w-100" -->
-        <div class="carousel-caption d-md-block">
-          <h5>SUFST - Head of Electronics 2019-2020</h5>
-          <p>Producing high power automotive-grade looms, designed embedded systems and PCB development</p>
-          <button type="button" class="btn btn-outline-light">Find out more</button>
+<%- include("./partials/header.ejs");  %>
+<!-- <br> -->
+<!-- ------------ -->
+<!--   CAROUSEL   -->
+<!-- ------------ -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 d-none d-md-block">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(sufst_group.jpg);">
+            <img src="sufst_group.jpg" alt="SUFST Group Image">
+            <div class="carousel-caption d-none d-lg-block">
+              <h5>SUFST - Head of Electronics 2019-2020</h5>
+              <p>Producing high power automotive-grade looms, designed embedded systems and PCB development</p>
+              <button type="button" class="btn btn-outline-light d-none d-xl-inline-block">Find out more</button>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(cansat.jpg);">
+            <img src="cansat.jpg" alt="Cansat Group Picture">
+            <div class="carousel-caption d-none d-lg-block">
+              <h5>CanSat - Head of Electrical Subsystems 2019-2020</h5>
+              <p>Desinged electrical power system and designed PCB for all electronics to integrate easily</p>
+              <button type="button" class="btn btn-outline-light d-none d-xl-inline-block">Find out more</button>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(d5_working_product.jpg);">
+            <img src="d5_working_product.jpg" alt="Smart Meter Product">
+            <div class="carousel-caption d-none d-lg-block">
+              <h5>Group Design Project - Smart Meter 2018-2019</h5>
+              <p>In charge of producing interface circuitry to interact with on board microcontroller so we could
+                reliably provided life-saving power for a hospital.</p>
+              <button type="button" class="btn btn-outline-light d-none d-xl-inline-block">Find out more</button>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(suvc_smart.jpg);">
+            <img src="suvc_smart.jpg" alt="Southampton University Volleyball Club">
+            <div class="carousel-caption d-none d-lg-block">
+              <h5>Southampton University Volleyball Club - Vice-President 2019-2020</h5>
+              <p>I was in the committee for two years, first as Social Secretary and then as Vice-President the
+                following year.</p>
+              <button type="button" class="btn btn-outline-light d-none d-xl-inline-block">Find out more</button>
+            </div>
+          </div>
+          <div class="carousel-item" id="ecsbanner" style="background-image: url(ecs_offices.jpg);">
+            <img src="ecs_offices.jpg" alt="Summer Internship at ECS">
+            <div class="carousel-caption d-none d-lg-block">
+              <h5>Summer Intership at the SEMS Dpt. in ECS - 2019</h5>
+              <p>The summer intership had me developing a User Interface to interact with a smart bandage designed by
+                the team.</p>
+              <button type="button" class="btn btn-outline-light d-none d-xl-inline-block">Find out more</button>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item" style="background-image: url(cansat.jpg);">
-        <img src="cansat.jpg" alt="Cansat Group Picture">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>CanSat - Head of Electrical Subsystems 2019-2020</h5>
-          <p>Desinged electrical power system and designed PCB for all electronics to integrate easily</p>
-          <button type="button" class="btn btn-outline-light">Find out more</button>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url(d5_working_product.jpg);">
-        <img src="d5_working_product.jpg" alt="Smart Meter Product">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Group Design Project - Smart Meter 2018-2019</h5>
-          <p>In charge of producing interface circuitry to interact with on board microcontroller so we could reliably provided life-saving power for a hospital.</p>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url(suvc_smart.jpg);">
-        <img src="suvc_smart.jpg" alt="Southampton University Volleyball Club">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Southampton University Volleyball Club - Vice-President 2019-2020</h5>
-          <p>I was in the committee for two years, first as Social Secretary and then as Vice-President the following year.</p>
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
+</div>
+<hr>
+<!-- ------------ -->
+<!--  /CAROUSEL   -->
+<!-- ------------ -->
+
+<section class="container-fluid px-0">
+  <div class="row align-items-center">
+    <div id="heading-group" class="text-white text-center d-lg-block col-lg-6 mt-5">
+      <!-- lhs -->
+      
+      <div class="container main-text">
+        <p>
+          <h1>About me</h1>
+          <em>Hi, I'm Anurag! First of all, thanks for visiting my website! I've developed the website all by myself using NodeJS and Express; if you'd like to hear about how I set the website up or have any suggestions please don't hesitate to coontact me, or visit my <a target="_blank"href="https://github.com/AnuragHMS/personal-website">github</a>. I'm also a massive fan of the Ayu theme, and so have based this website based on that.</em>
+        </p>
+  
+        <p>
+          I am currently a 3rd Year Electrical and Electronic Engineering student at the University of Southampton in UK! Having studied electronics for the larger majority of my life as well as programming, I definitely felt it was the best degree for me and have enjoyed it a lot as well as the other experiences and people a university life provides! From it, I've learnt about working on larger projects consisting of 100+ members, as well as leading such members as a team leader. I've used my taught skills to make PCBs, complex system diagrams and how electronics really fits into other subsystems as rarely is electronics the end-goal but rather the means for a function which is what seem like magic to the untrained eye.
+        </p> 
+        <p>
+          I enjoy learning a lot and have so taught myself a lot by throwing myself into many different projects. Take this website for example, my course does not teach me any web-development, however I took it upon myself after all my plans were cancelled thanks to the 2020 Covid crises to teach myself. Listed below are just some of the bigger university projects and societies that I'm a part of and what I've done with them!
+        </p>
+      </div>
+      
+
+    </div>
+    <div class="col-lg-6">
+      <img src="me_2.jpg" alt="" class="img-fluid">
+    </div>
+  </div>
+</section>
 
 
 
-<%- include("./partials/footer.ejs");  %> 
+<%- include("./partials/footer.ejs");  %>

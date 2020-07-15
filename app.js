@@ -1,5 +1,4 @@
-const express = require('express');
-
+const express = require("express");
 
 var app = express();
 
@@ -8,26 +7,28 @@ app.use(express.static("public"));
 app.use(express.static("public/src/images"));
 
 app.get("/", (req, res) => {
-    res.locals.title = "AS > Home";
-    res.locals.styleSheet = "styles.css";
-    res.locals.active="home";
-    res.render("landing");
-})
+	res.locals.title = "AS > Home";
+	res.locals.styleSheet = "styles.css";
+	res.locals.active = "home";
+	res.render("landing");
+});
 
 app.get("/about", (req, res) => {
-    res.locals.title = "AS > About";
-    res.locals.styleSheet = "styles.css";
-    res.locals.active="about";
-    res.render("about");
+	res.locals.title = "AS > About";
+	res.locals.styleSheet = "styles.css";
+	res.locals.active = "about";
+	res.render("about");
 });
 
 app.get("/contact", (req, res) => {
-    res.locals.title = "AS > Contact Me";
-    res.locals.styleSheet = "styles.css";
-    res.locals.active="contact";
-    res.render("contact");
+	res.locals.title = "AS > Contact";
+	res.locals.styleSheet = "styles.css";
+	res.locals.active = "contact";
+	res.render("contact");
 });
 
 app.listen(3000, () => {
-    console.log("Server starting...");
+	console.log("Server starting...");
 });
+
+liveServer.start(params);
